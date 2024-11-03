@@ -1,0 +1,61 @@
+.hero {
+    max-width: 1440px;
+    height: 628px;
+    margin: 0 auto;
+    padding: 10px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    .hero_left {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+
+        .hero_item {
+            max-width: 600px;
+            font-size: 47px;
+            font-weight: 700;
+            line-height: 57.6px;
+            text-align: left;
+        }
+
+        .hero_desc {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            text-align: left;
+            color: #150C01;
+        }
+
+        .hero_btn_content {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            .hero_btn {
+                width: 158px;
+                height: 60px;
+                border-radius: 5px;
+                background: #DC780B;
+                color: white;
+                transition: .5s;
+                border: transparent;
+                font-size: 16px;
+
+                &:hover {
+                    background: none;
+                    color: #DC780B;
+                    border: 1px solid #DC780B;
+                    transition: .5s;
+                }
+            }
+        }
+    }
+
+    .hero_img {
+        width: 576px;
+        height: 608px;
+    }
+}
